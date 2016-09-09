@@ -1312,7 +1312,7 @@ namespace DocumentFormat.OpenXml.Packaging
             ThrowIfObjectDisposed();
 
             // use reflection to create the instance. As the default contructor of part is not "public"
-            T part = (T)Activator.CreateInstance(typeof(T));
+            T part = (T)Activator.CreateInstance(typeof(T), true);
 
             try
             {
@@ -1371,7 +1371,7 @@ namespace DocumentFormat.OpenXml.Packaging
             }
 
             // use reflection to create the instance. As the default contructor of part is not "public"
-            T part = (T)Activator.CreateInstance(typeof(T));
+            T part = (T)Activator.CreateInstance(typeof(T), true);
 
             if (part is ExtendedPart)
             {
