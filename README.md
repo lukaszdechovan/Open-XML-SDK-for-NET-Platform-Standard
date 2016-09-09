@@ -2,8 +2,8 @@
 Clone this code and build it. Copy the generated nuget files in a folder(from both 2 projects). Then add this folder in nuget feeds like this -> [hosting-your-own-nuget-feeds](https://docs.nuget.org/create/hosting-your-own-nuget-feeds)
 Then you can add this packages like any others.
 
-# Open XML SDK for NET Platform Standard 3 & .net Core
-a NET Platform Standard implementation of Open XML SDK 2.5 
+# Open XML SDK for NET Platform Standard 1.6 & .NET Core 1.0
+a NET Platform Standard 1.6 implementation of Open XML SDK 2.5 
 
 This library(https://github.com/OfficeDev/Open-XML-SDK) was the only library that was holding back our project from supporting .net core. We didn't get any feedback from the team that created(there are more than 5 issues about it) and we couldn't wait. 
 So I copied the code and i tried it out.
