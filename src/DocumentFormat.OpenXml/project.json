@@ -1,5 +1,5 @@
 {
-  "version": "2.5.1-2",
+  "version": "2.5.3",
   "dependencies": {
     "System.Runtime.Serialization.Json": "4.0.2",
     "Utility.Xml": "1.0.0-*"
